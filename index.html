@@ -503,12 +503,13 @@ body{
       <div class="camp-name"><span class="camp-id" style="background:#22C55E;color:#000">CAM D</span> Conversão · Catarse</div>
       <div class="camp-meta">
         <div><span class="k">Fase</span><span class="v">F3 · Conversão · DURANTE (11–12/07) + PÓS (13–18/07)</span></div>
-        <div><span class="k">Objetivo</span><span class="v">Conversão / Tráfego · otimizar pra cliques no link e apoios na Catarse</span></div>
+        <div><span class="k">Objetivo</span><span class="v">Conversão (Vendas) · otimizar pra <strong style="color:#22C55E">Compras (Purchase)</strong> na Catarse</span></div>
+        <div><span class="k">Pré-requisito</span><span class="v">Pixel/CAPI no checkout da Catarse com evento Purchase + valor — sem isso não otimiza pra compra</span></div>
         <div><span class="k">Públicos</span><span class="v">Custom audience das Fases 1 e 2 (quem engajou, seguiu, viu vídeos, visitou stand) + Lookalike 1% · público mais quente primeiro</span></div>
         <div><span class="k">Geo</span><span class="v">Nacional (a Catarse é online)</span></div>
         <div><span class="k">Formato</span><span class="v">Reels + Stories + estático · link direto pra Catarse</span></div>
         <div><span class="k">Gatilho</span><span class="v">Lançamento no dia do evento + urgência/recompensas (early bird, metas, últimas horas)</span></div>
-        <div><span class="k">KPI principal</span><span class="v">Cliques no link · apoios · valor arrecadado · CPA por apoio · ROAS</span></div>
+        <div><span class="k">KPI principal</span><span class="v">Compras (apoios) · valor arrecadado · CPA por compra · ROAS</span></div>
       </div>
     </div>
 
@@ -823,36 +824,41 @@ body{
     <div class="budget-total">
       <div class="budget-lbl">Budget total ciclo</div>
       <div class="budget-val">R$ <span>1.500</span></div>
-      <div class="budget-sub">Topo/meio de funil (Cam A/B/C) + conversão Catarse (Cam D). Mais peso em conversão na semana do evento</div>
+      <div class="budget-sub">100% Meta Ads · YouTube orgânico (R$ 0). Mais peso em <strong style="color:#22C55E">conversão (43%)</strong> e alcance pra levar ao evento</div>
     </div>
 
-    <div class="split-cards">
-      <div class="split-card" style="border-color:rgba(8,102,255,0.30)">
+    <div class="split-cards" style="grid-template-columns:repeat(4,1fr)">
+      <div class="split-card cam-a" style="border-left:3px solid #1877F2">
         <div class="split-card-head">
-          <div class="icon-tile brand-meta"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="5" fill="#1877F2"/><path fill="#fff" d="M16.65 12.45h-2.96V21h-3.5v-8.55H8.05V9.5h2.14V7.65c0-2.27 1.18-3.6 3.79-3.6h2.18v2.95h-1.36c-.96 0-1.11.46-1.11 1.17V9.5h2.49l-.53 2.95z"/></svg></div>
-          <div class="split-card-name">Meta Ads</div>
-          <div class="split-card-pct">100%</div>
+          <div class="split-card-name">Cam A · Seguidores</div>
+          <div class="split-card-pct">20%</div>
         </div>
-        <div class="split-card-val">R$ <span>1.500</span></div>
-        <div class="split-card-desc">Cam A/B/C (Seguidores · Alcance SP · Engajamento) + Cam D · Conversão Catarse (durante + pós)</div>
+        <div class="split-card-val">R$ <span style="color:#1877F2">300</span></div>
+        <div class="split-card-desc">Crescer base BR · PRÉ (30/06–10/07) · ~R$ 27/dia</div>
       </div>
-      <div class="split-card" style="border-color:rgba(255,0,0,0.28)">
+      <div class="split-card cam-b" style="border-left:3px solid var(--red)">
         <div class="split-card-head">
-          <div class="icon-tile brand-yt"><svg viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="3.5" fill="#FF0000"/><path d="M10 9l5.5 3L10 15V9z" fill="#fff"/></svg></div>
-          <div class="split-card-name">YouTube</div>
-          <div class="split-card-pct">orgânico</div>
+          <div class="split-card-name">Cam B · Alcance SP</div>
+          <div class="split-card-pct">27%</div>
         </div>
-        <div class="split-card-val">R$ <span>0</span></div>
-        <div class="split-card-desc">Construção do canal · lives · shorts · entrevistas sem mídia paga</div>
+        <div class="split-card-val">R$ <span>400</span></div>
+        <div class="split-card-desc">Levar ao evento · PRÉ · pico D-7 → 11–12/07 · ~R$ 36/dia</div>
       </div>
-      <div class="split-card" style="border-color:var(--line)">
+      <div class="split-card cam-c" style="border-left:3px solid var(--warped)">
         <div class="split-card-head">
-          <div class="icon-tile dark"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#8A8A95" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="#8A8A95" stroke-width="1.7" stroke-linecap="round"/></svg></div>
-          <div class="split-card-name">Conversão Catarse</div>
-          <div class="split-card-pct">durante+pós</div>
+          <div class="split-card-name">Cam C · Engajamento</div>
+          <div class="split-card-pct">10%</div>
         </div>
-        <div class="split-card-val" style="font-size:13px">link Catarse</div>
-        <div class="split-card-desc">Cam D leva pro link da Catarse. Reforço de verba na conversão conforme o lançamento performar no dia do evento</div>
+        <div class="split-card-val">R$ <span style="color:var(--warped)">150</span></div>
+        <div class="split-card-desc">ThruPlay + custom audience · durante+pós · ~R$ 19/dia</div>
+      </div>
+      <div class="split-card" style="border-left:3px solid #22C55E">
+        <div class="split-card-head">
+          <div class="split-card-name">Cam D · Catarse</div>
+          <div class="split-card-pct">43%</div>
+        </div>
+        <div class="split-card-val">R$ <span style="color:#22C55E">650</span></div>
+        <div class="split-card-desc">Compras (Purchase) · durante+pós · pico nos dias do evento · ~R$ 81/dia</div>
       </div>
     </div>
   </div>
